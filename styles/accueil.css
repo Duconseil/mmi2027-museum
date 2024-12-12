@@ -98,9 +98,18 @@ p {
 .pictures-news{
     display: flex;
     justify-content: space-around;
-    padding: Opx;
+    padding: 0px;
     flex-grow: 1;
+    gap: 40px;
 } 
+
+.pictures-news > div {
+    width: calc(100% / 3);
+}
+
+.pictures-news img {
+    width: 100%;
+}
 
 h5{
     font-weight: bold;

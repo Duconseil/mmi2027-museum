@@ -1,14 +1,15 @@
 @font-face {
-    font-family:"Switzer-regular";
+    font-family:"Switzer";
     src: url("/fonts/Switzer-font/Switzer-Regular.woff") format("woff");
+    font-weight: normal;
 }
 
 @font-face {
-    font-family:"Switzer-Black";
-    src: url(/fonts/Switzer-font/Switzer-Black.woff);
+    font-family:"Switzer";
+    src: url("/fonts/Switzer-font/Switzer-Black.woff") format("woff");
 }
 
 @font-face {
     font-family:"Switzer-Semibold";
-    src: url(/fonts/Switzer-font/Switzer-Semibold.woff);
+    src: url("/fonts/Switzer-font/Switzer-Semibold.woff") format("woff");
 }

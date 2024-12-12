@@ -12,23 +12,28 @@
     display: block;
   }
 
+.exposition-block {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+/* 
+.argo {
+  display: flex;
+  justify-content: space-around;
+}
 
 
-    .argo {
-        display: flex;
-        justify-content: space-around;
-  }
-
- 
-  .helene{
-    display: flex;
-    justify-content: space-around;
+.helene{
+  display: flex;
+  justify-content: space-around;
 }
 
   .lito {
   display: flex;
   justify-content: space-around;
-}
+} */
 
   section {
     padding: 0px 50px;
