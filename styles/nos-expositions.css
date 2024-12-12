@@ -68,8 +68,5 @@ button .button-group, .clique-pour-decouvrir {
 .titre {
   margin: 0px;
   margin-left: 50px;
-}
-
-.premiere section {
-  display: flex;
+  margin-top: 100px;
 }
