@@ -23,7 +23,7 @@
   .helene{
     display: flex;
     justify-content: space-around;
-    padding: 0px;
+    padding: 0 30px;
 }
   .lito {
   display: flex;
