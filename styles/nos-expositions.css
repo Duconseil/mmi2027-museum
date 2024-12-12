@@ -14,10 +14,20 @@
 
 
 
-    .argo, .argo-2, .argo-3 {
+    .argo {
         display: flex;
         justify-content: space-around;
   }
+
+  .argo-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.argo-3 {
+  display: flex;
+  justify-content: space-around;
+}
 
   section {
     padding: 0px 50px;
