@@ -142,11 +142,13 @@ h1 {
     margin-top: 100px;
     margin-left: 0px;
 }
-@media (max-width: 300){
+@media (max-width: 375){
     h1.principal-title{
         font-size: 40px;
     } 
     h3{
         font-size: 1.px;
     }
+    display: flex;
+      }
 }

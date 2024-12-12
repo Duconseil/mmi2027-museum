@@ -3,6 +3,12 @@
     margin: 0 auto;
     max-width: 1280px;
 }
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     margin: 0;
 }
