@@ -14,7 +14,7 @@
 
 
 
-    .argo,.argo-2,.argo-3 {
+    .argo, .argo-2, .argo-3 {
         display: flex;
         justify-content: space-around;
   }
