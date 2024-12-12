@@ -30,6 +30,9 @@
   .lito {
   display: flex;
   justify-content: space-around;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 200px;
 }
 
   section {
