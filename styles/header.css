@@ -10,6 +10,7 @@ header nav {
     overflow-x: scroll;
 }
 
+
 header nav ul {
     display: flex;
     gap: 40px;
@@ -18,12 +19,6 @@ header nav ul {
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 200px;
-}
-
-@media (max-width: 375) {
-    a {
-        font-size: 5px;
-    }
 }
 
 header nav ul a {
@@ -36,4 +31,11 @@ header nav ul a {
 
 .loupe {
     padding-right: 40px;
+}
+
+
+@media (max-width: 375px) {
+    header nav ul a {
+        font-size: 15px;
+    }
 }
