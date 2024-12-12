@@ -46,7 +46,7 @@ button .button-group, .clique-pour-decouvrir {
     background-color: #f0f0f0; /* Optionnel : couleur de fond des boutons */
 }
 
-    .button-group {
+.button-group {
     font-size: 16px;          /* Taille du texte */
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
     cursor: pointer;          /* Change le curseur en "main" au survol */
@@ -54,3 +54,6 @@ button .button-group, .clique-pour-decouvrir {
 }
 
 
+.expo-une {
+  display: flex;
+}
