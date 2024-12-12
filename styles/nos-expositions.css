@@ -45,13 +45,11 @@ button .button-group, .clique-pour-decouvrir {
 }
 
     .button-group {
-    color: white;             /* Couleur du texte */
     font-size: 16px;          /* Taille du texte */
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
     border: none;             /* Supprime les bordures */
     border-radius: 8px;       /* Coins arrondis */
     cursor: pointer;          /* Change le curseur en "main" au survol */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Ombre */
     transition: 0.3s;         /* Animation pour les interactions */
 }
 
