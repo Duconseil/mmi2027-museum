@@ -20,6 +20,12 @@ header nav ul {
     padding-right: 200px;
 }
 
+@media (max-width: 375) {
+    a {
+        font-size: 5px;
+    }
+}
+
 header nav ul a {
     font-size: 20px;
     text-decoration: none;
@@ -30,10 +36,4 @@ header nav ul a {
 
 .loupe {
     padding-right: 40px;
-}
-
-@media (max-width: 375) {
-    li {
-        font-size: 5px;
-    }
 }
