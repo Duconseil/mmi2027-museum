@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"Switzer-regular";
+    src: url(/fonts/Switzer-font/Switzer-Regular.otf);
+}
+
+@font-face {
+    font-family:"Switzer-Black";
+    src: url(/fonts/Switzer-font/Switzer-Black.otf);
+}
+
+@font-face {
+    font-family:"Switzer-Semibold";
+    src: url(/fonts/Switzer-font/Switzer-Semibold.otf);
+}
+
