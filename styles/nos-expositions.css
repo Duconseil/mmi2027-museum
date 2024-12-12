@@ -23,8 +23,9 @@
     padding: 0px 50px;
   }
 
-  h1{
+  h1.titre{
     font-weight: bold;
+    font-family: "Switzer-Black";
   }
 
   h1, h2 {
@@ -34,9 +35,14 @@
   .button-group {
     display: flex;          /* Utilise flexbox pour organiser les boutons */
     justify-content: flex-end; /* Aligne les boutons à droite */
-    padding: 10px;          /* Optionnel : ajoute un peu d'espace autour */
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
+    margin-bottom: 50px;
+}
+
+button {
+  font-family: "Switzer-Regular";
+  font-size: 20px;
 }
 
 
@@ -58,4 +64,16 @@ button .button-group, .clique-pour-decouvrir {
   margin: 0px;
   margin-left: 50px;
   margin-top: 100px;
+}
+
+.discover-link {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Switzer-Black";
+  margin-bottom: 100px;
+}
+
+p {
+  font-family: "Switzer-Regular";
 }
