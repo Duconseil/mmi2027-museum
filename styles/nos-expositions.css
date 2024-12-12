@@ -4,7 +4,7 @@
     align-items: center;
     gap: 20px;
   }
- 
+
   .title-line .line {
     height: 3px;
     background: black;
@@ -12,18 +12,20 @@
     display: block;}
 
 
-     
+
     .argo{
         display: flex;
         justify-content: space-between;
       }
-     
+
   section {
     padding: 0px 50px;
   }
+
   h1{
     font-weight: bold;
   }
+
   body{font-family: switzer;}
   .button-group {
     display: flex;          /* Utilise flexbox pour organiser les boutons */
@@ -32,7 +34,7 @@
 }
 
 
-button {
+main > button {
     margin: 5px;            /* Optionnel : ajoute un peu d'espace entre les boutons */
     padding: 10px 15px;     /* Ajuste l'intérieur des boutons */
     border: 1px solid black; /* Optionnel : style des boutons */
