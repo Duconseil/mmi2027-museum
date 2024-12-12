@@ -2,8 +2,8 @@
     margin: 0px;
     font-family: "Switzer-Medium";
     font-size: 20px;
-    margin-left: 400px;
-    margin-top: 70px;
+    margin-top: 100px;
+    align-items: flex-end;
 }
 
 .home-page {
@@ -41,11 +41,13 @@
     font-size: 64px;
     margin-bottom: 30px;
 }
+
 h3{
     font-size: 20px;
     font-weight: 400;
     font-family: "Switzer-black";
 }
+
 .home-page {
     display: flex;
 
@@ -63,9 +65,10 @@ h3{
 
 h2{
     margin-top: 100px;
-    font-size: 56px;
-    margin-left: 50px;
-    padding-left: 50px;
+    font-size: 30px;
+    margin-left: 0px;
+    padding-left: 00px;
+    margin-bottom: 0px;
     font-family: "Switzer-black";
 }
 
@@ -74,7 +77,7 @@ h2{
 }
 
 h4{
-    font-size: 40PX;
+    font-size: 40px;
     font-weight: 900;
     font-family: "Switzer-black";
     margin-left: 50px;
@@ -93,7 +96,7 @@ p {
 
 .news{
     display:flex;
-    
+    align-items: flex-end;
 }
 
 .pictures-news{
@@ -121,7 +124,7 @@ h5{
 .evenement-du-moment {
     display: flex;
     margin: 0px;
-    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .contenu-evenement {
@@ -131,4 +134,10 @@ h5{
 
 .coeur-de-page {
     flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Switzer-Black";
+    margin-left: 0px;
 }
