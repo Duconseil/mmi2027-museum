@@ -15,7 +15,7 @@
 
     .argo{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
       }
 
   section {
@@ -27,7 +27,7 @@
   }
 
   h1, h2 {
-    font-family: switzer;
+    font-family: "Switzer-bold";
   }
 
   .button-group {
@@ -51,9 +51,4 @@ button .button-group, .clique-pour-decouvrir {
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
-}
-
-
-.expo-une {
-  display: flex;
 }
