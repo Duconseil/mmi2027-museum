@@ -19,12 +19,11 @@
         justify-content: space-around;
   }
 
-  .argo-2 {
+  section .argo-2 {
     display: flex;
     justify-content: space-around;
 }
-
-.argo-3 {
+  section .argo-3 {
   display: flex;
   justify-content: space-around;
 }
