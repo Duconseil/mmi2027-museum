@@ -34,6 +34,8 @@
     display: flex;          /* Utilise flexbox pour organiser les boutons */
     justify-content: flex-end; /* Aligne les boutons à droite */
     padding: 10px;          /* Optionnel : ajoute un peu d'espace autour */
+    cursor: pointer;          /* Change le curseur en "main" au survol */
+    transition: 0.3s;         /* Animation pour les interactions */
 }
 
 
@@ -47,7 +49,6 @@ button .button-group, .clique-pour-decouvrir {
     .button-group {
     font-size: 16px;          /* Taille du texte */
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
-    border: 1px solid black; /* Optionnel : style des boutons */
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
 }
