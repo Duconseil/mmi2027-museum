@@ -64,3 +64,8 @@ button .button-group, .clique-pour-decouvrir {
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
 }
+
+.titre {
+  margin: 0px;
+  margin-left: 50px;
+}
