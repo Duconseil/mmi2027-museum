@@ -9,14 +9,15 @@
     height: 3px;
     background: black;
     width: 100%;
-    display: block;}
+    display: block;
+  }
 
 
 
-    .argo, .argo-2, .argo-3{
+    .argo,.argo-2,.argo-3 {
         display: flex;
         justify-content: space-around;
-      }
+  }
 
   section {
     padding: 0px 50px;
