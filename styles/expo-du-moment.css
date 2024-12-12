@@ -21,7 +21,6 @@
 }
 
 .article-exposition {
-    display: flex;
     align-items: flex-start;
     justify-content: center;
     justify-content: space-around;
@@ -37,6 +36,10 @@
     font-family: "Switzer-Black";
     font-size: 19px;
     color: black;
+}
+
+.article-exposition img {
+    width: 100%;
 }
 
 hr {

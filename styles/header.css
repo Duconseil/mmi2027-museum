@@ -6,13 +6,15 @@ header {
 
 header nav {
     flex-grow: 1;
+    width: 100%;
+    overflow-x: scroll;
 }
 
 header nav ul {
     display: flex;
     gap: 40px;
     list-style: none;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 200px;
@@ -28,4 +30,10 @@ header nav ul a {
 
 .loupe {
     padding-right: 40px;
+}
+
+@media (max-width: 375) {
+    li {
+        font-size: 5px;
+    }
 }
