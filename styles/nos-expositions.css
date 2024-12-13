@@ -81,7 +81,7 @@ button .button-group, .clique-pour-decouvrir {
   color: black;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .div.container-2 {
     flex-direction: column;
   }
@@ -100,7 +100,7 @@ button .button-group, .clique-pour-decouvrir {
     margin-top: 30px;
     padding: 0 30px;
   }
-  
+
   .container-2 {
     width: 100%;
     flex-direction: column;
