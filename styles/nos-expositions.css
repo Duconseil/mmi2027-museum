@@ -81,14 +81,27 @@ p {
     font-size: 15px;
 }
 
-button {
-  font-family: "Switzer-Regular";
-  font-size: 20px;
-}
 
 @media (max-width: 375px) {
   .container-2 {
     display: flex;
     flex-direction: column;
+  }
+  button {
+    font-size: 15px;
+  }
+  span.button-group {
+    margin-right: 30px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  h1.titre {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+  div.container-2 {
+    width: 100%;
   }
 }

@@ -63,6 +63,11 @@
     color: black;
 }
 
+.home-page{
+    margin: 8px;
+    padding: 10px;
+}
+
 .principal-title{
     font-family: "Switzer-Black";
     font-weight: 900;
