@@ -44,7 +44,7 @@ hr {
     margin-right: 50px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     section{
         display: flex;
         flex-direction: column;
