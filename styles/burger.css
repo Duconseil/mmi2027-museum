@@ -1,0 +1,16 @@
+.button-menu {
+    display: none;
+}
+
+@media (max-width: 680px) {
+    header nav {
+        display: none;
+    }
+
+.button-menu {
+        display: block;
+    }
+
+header.menu-is-opened #open-menu {
+        display: none;
+    }
