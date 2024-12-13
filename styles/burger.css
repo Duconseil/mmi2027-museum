@@ -14,3 +14,33 @@
 header.menu-is-opened #open-menu {
         display: none;
     }
+header #close-menu {
+        display: none;
+      }
+      
+header.menu-is-opened #close-menu {
+        display: block;
+      }
+      
+header.menu-is-opened nav {
+        display: block;
+        position: absolute;
+        background: grey;
+        padding: 20px;
+        right: 0;
+        top: 0px;
+        left: 0;
+        bottom: 0;
+      }
+      
+header.menu-is-opened nav {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 30px;
+      }
+      
+header.menu-is-opened nav ul {
+        flex-direction: column;
+      }
