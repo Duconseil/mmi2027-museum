@@ -165,6 +165,10 @@ h5{
     flex-wrap: wrap;
 }
 
+a {
+    color: black;
+}
+
 h1 {
     font-size: 40px;
     font-family: "Switzer-Black";
