@@ -49,5 +49,14 @@ hr {
     section{
         display: flex;
         flex-direction: column;
+        padding-bottom: 30px;
         }
+    .page-infos-pratiques h2 {
+        flex-basis: 0px;
+        margin-bottom: 50px;
+    }
+    .page-infos-pratiques h1 {
+        margin-bottom:40px;
+        margin-top: 30px;
+    }
 }
