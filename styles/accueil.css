@@ -210,6 +210,10 @@ h1 {
     p {
         margin-bottom: 20px;
     }
+
+    a.discover-link {
+        margin-right: 5px;
+    }
 }
 
 
