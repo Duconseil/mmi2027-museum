@@ -46,10 +46,11 @@
     padding: 0;
 }
 
-.home-page H3 {
+.description {
     margin: 10px 0;
     margin-right: 70px;
     padding: 0;
+    font-weight: 300;
 }
 
 .home-page a {
@@ -74,7 +75,7 @@
 
 h3 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .discover-link {
@@ -179,10 +180,10 @@ h1 {
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
 
-        h1 {
+    h1 {
             font-size: 30px;
-        }
     }
 
     h1.principal-title {
@@ -197,10 +198,10 @@ h1 {
     .section.evenement-du-moment {
         display: flex;
         flex-direction: column;
+    }
 
-        h2 {
+    h2.titre-expo {
             margin-top: 20px;
-        }
     }
 
     p {
