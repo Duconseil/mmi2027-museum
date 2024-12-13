@@ -1,3 +1,36 @@
+.div.container-2 {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 375px) {
+  .button-group {
+    font-size: 15px;
+  }
+  span.button-group {
+    margin-right: 30px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  h1.titre {
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+
+  .div.container-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+
 .title-line {
     text-align: end;
     display: flex;
@@ -81,29 +114,4 @@ button .button-group, .clique-pour-decouvrir {
   color: black;
 }
 
-@media (max-width: 375px) {
-  .container-2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .button-group {
-    font-size: 15px;
-  }
-  span.button-group {
-    margin-right: 30px;
-    padding: 0px;
-    margin-top: 20px;
-  }
 
-  h1.titre {
-    margin: 0px;
-    margin-top: 30px;
-    padding: 0 30px;
-  }
-  div.container-2 {
-    width: 100%;
-  }
-  a {
-    color: black;
-  }
-}
