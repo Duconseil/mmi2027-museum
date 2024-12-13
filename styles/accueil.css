@@ -225,4 +225,21 @@ h1 {
     .article-exposition {
         padding-right: 0px;
     }
+
+    .button.bouton-evenement {
+        margin-top: 50px;
+    }
+
+    H1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    H2 {
+        margin-top: 50px;
+    }
+
+    a.discover-link {
+        margin-top: 50px;
+    }
 }
