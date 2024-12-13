@@ -45,3 +45,9 @@ hr {
     margin-right: 50px;
 }
 
+@media (max-width: 375px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        }
+}
