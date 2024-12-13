@@ -194,7 +194,7 @@ h1 {
         font-size: 15px;
     }
 
-    section.evenement-du-moment {
+    .section.evenement-du-moment {
         display: flex;
         flex-direction: column;
 
