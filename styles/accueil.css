@@ -69,7 +69,6 @@
 
 .principal-title {
     font-weight: 800;
-    font-size: 64px;
     margin-bottom: 30px;
 }
 
@@ -187,7 +186,7 @@ h1 {
     }
 
     h1.principal-title {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .bouton-evenement {
