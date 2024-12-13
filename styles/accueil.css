@@ -1,6 +1,5 @@
 .bouton-evenement {
     margin: 0px;
-    font-family: "Switzer-Medium";
     font-size: 20px;
     margin-top: 100px;
     align-items: flex-end;
@@ -40,7 +39,7 @@
 }
 
 .home-page H1 {
-    font-family: "Switzer-Black";
+    font-weight: 800;
     margin: 0;
     margin-bottom: 20px;
     margin-right: 70px;
@@ -48,14 +47,12 @@
 }
 
 .home-page H3 {
-    font-family: "Switzer-Regular";
     margin: 10px 0;
     margin-right: 70px;
     padding: 0;
 }
 
 .home-page a {
-    font-family: "Switzer-Regular";
     margin: 0;
     margin-right: 50px;
     margin-top: 100px;
@@ -70,8 +67,7 @@
 
 
 .principal-title {
-    font-family: "Switzer-Black";
-    font-weight: 900;
+    font-weight: 800;
     font-size: 64px;
     margin-bottom: 30px;
 }
@@ -79,7 +75,6 @@
 h3 {
     font-size: 20px;
     font-weight: 400;
-    font-family: "Switzer-black";
 }
 
 .discover-link {
@@ -98,7 +93,7 @@ h2 {
     margin-left: 0px;
     padding-left: 00px;
     margin-bottom: 0px;
-    font-family: "Switzer-black";
+    font-weight: 800;
 }
 
 .titre-expo {
@@ -108,8 +103,8 @@ h2 {
 h4 {
     font-size: 40px;
     font-weight: 900;
-    font-family: "Switzer-black";
     margin-left: 50px;
+    font-weight: 800;
 }
 
 .button {
@@ -120,9 +115,6 @@ h4 {
     padding: 0;
 }
 
-p {
-    font-family: "Switzer-Regular";
-}
 
 .news {
     display: flex;
@@ -148,7 +140,7 @@ p {
 h5 {
     font-weight: bold;
     font-size: 20px;
-    font-family: "Switzer-Semibold";
+    font-weight: 500;
 }
 
 .evenement-du-moment {
@@ -172,9 +164,13 @@ a {
 
 h1 {
     font-size: 40px;
-    font-family: "Switzer-Black";
+    font-weight: 800;
     margin-top: 100px;
     margin-left: 0px;
+}
+
+.article-exposition {
+    padding-right: 0px;
 }
 
 @media (max-width: 375px) {

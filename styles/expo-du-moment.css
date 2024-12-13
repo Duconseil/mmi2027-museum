@@ -7,14 +7,13 @@
 }
 
 .expo-du-moment H2 {
-    font-family: "Switzer-Black";
+    font-weight: 800;
     font-size: 30px;
     margin-top: 100px;
     margin-left: 50px;
 }
 
 .bouton-exposition {
-    font-family: "Switzer-Medium";
     font-size: 20px;
     margin-left: 400px;
     margin-top: 80px;
@@ -28,12 +27,11 @@
 }
 
 .article-exposition p {
-    font-family: "Switzer-regular";
     font-size: 15px;
 }
 
 .article-exposition a {
-    font-family: "Switzer-Black";
+    font-weight: 800;
     font-size: 19px;
     color: black;
 }

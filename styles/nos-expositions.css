@@ -29,11 +29,11 @@
 
   h1.titre{
     font-weight: bold;
-    font-family: "Switzer-Black";
+    font-weight: 800;
   }
 
   h1, h2 {
-    font-family: "Switzer-bold";
+    font-weight: 500;
   }
 
   .button-group {
@@ -51,12 +51,10 @@ button .button-group, .clique-pour-decouvrir {
     padding: 10px 15px;     /* Ajuste l'intérieur des boutons */
     border: 1px solid black; /* Optionnel : style des boutons */
     background-color: #f0f0f0; /* Optionnel : couleur de fond des boutons */
-    font-family: "Switzer-Regular";
 }
 
 .button-group {
     font-size: 16px;          /* Taille du texte */
-    font-family: "Switzer-Regular";
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
@@ -72,16 +70,11 @@ button .button-group, .clique-pour-decouvrir {
   color: black;
   display: flex;
   justify-content: flex-end;
-  font-family: "Switzer-Black";
+  font-weight: 800;
   margin-bottom: 100px;
 }
 
-p {
-  font-family: "Switzer-Regular";
-}
-
 .clique-pour-decouvrir {
-    font-family: "Switzer-Regular";
     font-size: 15px;
 }
 

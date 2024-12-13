@@ -10,7 +10,7 @@
 .page-infos-pratiques h2{
     flex-basis: 220px;
     flex-shrink: 0;
-    font-family: "Switzer-Black";
+    font-weight: 800;
     font-size: 30px;
 }
 
@@ -25,7 +25,7 @@
 
 
 .page-infos-pratiques H1 {
-    font-family: "Switzer-Black";
+    font-weight: 800;
     font-size: 40px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -33,7 +33,6 @@
 }
 
 .page-infos-pratiques p, li {
-    font-family: "Switzer-regular";
     font-size: 15px;
 }
 
