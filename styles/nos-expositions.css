@@ -12,6 +12,10 @@
     display: block;
   }
 
+  a {
+    color: black;
+  }
+
 .exposition-block {
   display: flex;
   justify-content: flex-start;
@@ -81,6 +85,9 @@ p {
     font-size: 15px;
 }
 
+.argo exposition-block {
+  color: black;
+}
 
 @media (max-width: 375px) {
   .container-2 {
@@ -103,5 +110,8 @@ p {
   }
   div.container-2 {
     width: 100%;
+  }
+  a {
+    color: black;
   }
 }
