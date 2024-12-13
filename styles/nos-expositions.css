@@ -33,7 +33,7 @@
   }
 
   h1, h2 {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .button-group {
@@ -45,7 +45,6 @@
 }
 
 
-
 button .button-group, .clique-pour-decouvrir {
     margin: 5px;            /* Optionnel : ajoute un peu d'espace entre les boutons */
     padding: 10px 15px;     /* Ajuste l'intérieur des boutons */
@@ -54,7 +53,7 @@ button .button-group, .clique-pour-decouvrir {
 }
 
 .button-group {
-    font-size: 16px;          /* Taille du texte */
+    font-size: 30px;          /* Taille du texte */
     padding: 10px 20px;       /* Espace intérieur (haut/bas, gauche/droite) */
     cursor: pointer;          /* Change le curseur en "main" au survol */
     transition: 0.3s;         /* Animation pour les interactions */
@@ -87,7 +86,7 @@ button .button-group, .clique-pour-decouvrir {
     display: flex;
     flex-direction: column;
   }
-  button {
+  .button-group {
     font-size: 15px;
   }
   span.button-group {
