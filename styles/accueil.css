@@ -68,6 +68,7 @@
     padding: 10px;
 }
 
+
 .principal-title{
     font-family: "Switzer-Black";
     font-weight: 900;
@@ -191,7 +192,7 @@ h1 {
         display: flex;
         flex-direction: column;
         h2 {
-            margin-top: 50px;
+            margin-top: 20px;
         }
     }
     div.pictures-news {
