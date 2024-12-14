@@ -1,9 +1,3 @@
-.bouton-evenement {
-    margin: 0px;
-    font-size: 20px;
-    margin-top: 100px;
-    align-items: flex-end;
-}
 
 .flex {
     display: flex;
@@ -173,6 +167,18 @@ h1 {
 .article-exposition {
     padding-right: 0px;
 }
+.bouton-expo {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.bouton-evenement {
+    margin: 0px;
+    font-size: 20px;
+    align-items: flex-end;
+}
 
 @media (max-width: 375px) {
     .container-3 {
@@ -181,33 +187,28 @@ h1 {
         flex-direction: column;
         padding: 10px;
     }
-
+    
     h1 {
-            font-size: 30px;
+        font-size: 30px;
     }
-
+    
     h1.principal-title {
         font-size: 20px;
     }
-
-    .bouton-evenement {
-        margin-top: 30px;
-        font-size: 15px;
-    }
-
+    
     .section.evenement-du-moment {
         display: flex;
         flex-direction: column;
     }
-
+    
     h2.titre-expo {
-            margin-top: 20px;
+        margin-top: 20px;
     }
-
+    
     p {
         margin-bottom: 20px;
     }
-
+    
     a.discover-link {
         margin-right: 5px;
     }
@@ -217,28 +218,32 @@ h1 {
     .pictures-news {
         flex-direction: column;
     }
-
+    
     .pictures-news>div {
         width: calc(100%);
     }
-
+    
     .article-exposition {
         padding-right: 0px;
     }
-
-    .button.bouton-evenement {
-        margin-top: 0px;
+    
+    .bouton-evenement {
+        margin-top: 15px;
     }
 
+    .bouton-expo{
+        margin-top: 15px;
+    }
+    
     H1 {
         margin-top: 50px;
         margin-bottom: 0px;
     }
-
+    
     H2 {
         margin-top: 50px;
     }
-
+    
     a.discover-link {
         margin-top: 50px;
     }
